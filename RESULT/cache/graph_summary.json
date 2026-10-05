@@ -1,0 +1,12 @@
+{
+  "n_nodes": 1125,
+  "n_edges": 10975,
+  "mean_degree": 19.511111111111113,
+  "n_communities": 11,
+  "modularity": 0.6353814575235415,
+  "method": "louvain",
+  "ari_vs_kmeans": 0.17905184309662894,
+  "knn": 15,
+  "threshold": null,
+  "resolution": 1.0
+}

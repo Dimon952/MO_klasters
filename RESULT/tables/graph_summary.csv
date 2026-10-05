@@ -1,0 +1,2 @@
+﻿n_nodes,n_edges,mean_degree,n_communities,modularity,method,ari_vs_kmeans,knn,threshold,resolution
+1125,10975,19.511111111111113,11,0.6353814575235415,louvain,0.17905184309662894,15,,1.0
