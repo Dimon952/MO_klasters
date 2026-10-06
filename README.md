@@ -351,27 +351,29 @@ pytest tests/test_pipeline.py -v
 
 ## Структура проекта
 
+```text
 mo-clustering-sberindex/
-├── config.yaml # все параметры
+├── config.yaml                  # все параметры
 ├── requirements.txt
-├── make_synthetic_data.py # генератор тестовых данных
-├── run_all.py # единая точка входа
+├── make_synthetic_data.py       # генератор тестовых данных
+├── run_all.py                   # единая точка входа
 ├── src/
-│ ├── utils.py # конфиг, IO, палитра
-│ ├── s01_prep.py # очистка, пивот, интерполяция
-│ ├── s02_features.py # 11 признаков
-│ ├── s03_diagnostics.py # корреляции, VIF
-│ ├── s04_preprocess.py # winsorize + робастная стандартизация
-│ ├── s05_select_k.py # подбор k
-│ ├── s06_cluster.py # KMeans/Ward/GMM
-│ ├── s07_profile.py # профили кластеров
-│ ├── s08_viz_clusters.py # PCA, UMAP/t-SNE, дендрограмма
-│ ├── s08_viz_profiles.py # тепловые карты, радары, отчёт
-│ ├── s09_robust.py # 6 сценариев робастности
-│ └── s10_graph.py # косинусный граф + Louvain
+│   ├── utils.py                 # конфиг, IO, палитра
+│   ├── s01_prep.py              # очистка, пивот, интерполяция
+│   ├── s02_features.py          # 11 признаков
+│   ├── s03_diagnostics.py       # корреляции, VIF
+│   ├── s04_preprocess.py        # winsorize + робастная стандартизация
+│   ├── s05_select_k.py          # подбор k
+│   ├── s06_cluster.py           # KMeans/Ward/GMM
+│   ├── s07_profile.py           # профили кластеров
+│   ├── s08_viz_clusters.py      # PCA, UMAP/t-SNE, дендрограмма
+│   ├── s08_viz_profiles.py      # тепловые карты, радары, отчёт
+│   ├── s09_robust.py            # 6 сценариев робастности
+│   └── s10_graph.py             # косинусный граф + Louvain
 ├── tests/
-│ └── test_pipeline.py # pytest
-└── out/ # результаты (генерируется)
+│   └── test_pipeline.py         # pytest
+└── out/                         # результаты (генерируется)
+```
 
 
 ---
