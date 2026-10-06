@@ -418,7 +418,7 @@ python run_all.py --config config.yaml --step all
 
 ---
 
-## Troubleshooting
+## Диагностика
 
 | Симптом | Причина | Решение |
 |---------|---------|---------|
